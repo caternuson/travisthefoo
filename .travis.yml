@@ -1,2 +1,9 @@
 language: python
-script: ls
+script:
+- whoami
+- pwd
+- ls -alp
+- ls /
+- echo "hello world" > this.txt
+- uname -a
+- ping -c 5 www.google.com
