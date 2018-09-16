@@ -4,4 +4,4 @@ python:
 install:
   - pip install pylint
 script:
-  - pylint *.py
+  - pylint travis_me.py
